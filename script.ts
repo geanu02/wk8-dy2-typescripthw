@@ -305,8 +305,6 @@ class RedHeadedDuck extends Duck implements Quackable, Flyable, Swimmable {
     }
 }
 
-
-
 class DecoyDuck extends Duck implements Swimmable {
 
     constructor(color: string, age: number) {
